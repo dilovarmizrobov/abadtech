@@ -10,19 +10,18 @@ const MainBanner = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="main-banner-content pr-15">
-                                        <h1>Digital Marketing Best Solution</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        
-                                        <form className="banner-form">
-                                            <input type="email" className="form-control" placeholder="Enter your Email" />
-                                            <button type="submit">Get Your Report</button>
-                                        </form>
+                                        <h1>Enterprise Software Development Design & Consulting</h1>
+                                        <p>
+                                            <b>Abad Technologies</b> is engaged in the development, design and
+                                            consulting of enterprise software in the domestic market of Tajikistan and
+                                            exports IT solutions abroad.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6">
                                     <div className="main-banner-image pl-15">
-                                        <img src="/images/banner/banner-image-4.jpg" alt="image" />
+                                        <img src="/images/banner/main-banner-image.jpg" alt="image" />
                                     </div>
                                 </div>
                             </div>

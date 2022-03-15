@@ -25,10 +25,10 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>Creative Work</a>
+                                        <a>Smart Sokhtmon</a>
                                     </Link>
                                 </h3>
-                                <span>Web Design</span>
+                                <span>Web Development IOS Android</span>
                             </div>
                         </div>
                     </div>
@@ -46,10 +46,10 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>Ecommerce Work</a>
+                                        <a>Smart Anbor</a>
                                     </Link>
                                 </h3>
-                                <span>Creative Agency</span>
+                                <span>Web Development IOS Android</span>
                             </div>
                         </div>
                     </div>
@@ -67,10 +67,10 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>App Development</a>
+                                        <a>Bars 2.0</a>
                                     </Link>
                                 </h3>
-                                <span>IOS Android</span>
+                                <span>Web Development</span>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>Dashboard App</a>
+                                        <a>BaPesh | Tutors of Tajikistan</a>
                                     </Link>
                                 </h3>
                                 <span>Web Development</span>
@@ -109,10 +109,10 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>Web Application</a>
+                                        <a>Parking Dushanbe</a>
                                     </Link>
                                 </h3>
-                                <span>Marketing</span>
+                                <span>Android IOS</span>
                             </div>
                         </div>
                     </div>
@@ -130,10 +130,10 @@ const OurProjectStyleTwo = () => {
                             <div className="portfolio-content">
                                 <h3>
                                     <Link href="/portfolio-details">
-                                        <a>Logo & Branding</a>
+                                        <a>Dictionary</a>
                                     </Link>
                                 </h3>
-                                <span>Agency</span>
+                                <span>Web Development</span>
                             </div>
                         </div>
                     </div>

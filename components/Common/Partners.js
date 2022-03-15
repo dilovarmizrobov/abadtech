@@ -42,29 +42,33 @@ const Partners = () => {
                 {display ? <OwlCarousel 
                     className="partner-slider owl-carousel owl-theme"
                     {...options}
-                > 
+                >
                     <div className="partner-item">
-                        <img src="/images/partner/partner-1.png" alt="image" />
+                        <img src="/images/partner/partner-5.png" title="United Nations Development" alt="image" />
                     </div>
 
                     <div className="partner-item">
-                        <img src="/images/partner/partner-2.png" alt="image" />
+                        <img src="/images/partner/partner-1.png" title="DUOB Transport expeditionary company" alt="image" />
                     </div>
 
                     <div className="partner-item">
-                        <img src="/images/partner/partner-3.png" alt="image" />
+                        <img src="/images/partner/partner-2.png" title="Committee for Environmental Protection under the Government of the Republic of Tajikistan" alt="image" />
                     </div>
 
                     <div className="partner-item">
-                        <img src="/images/partner/partner-4.png" alt="image" />
+                        <img src="/images/partner/partner-3.png" title="Metal Invest" alt="image" />
                     </div>
 
                     <div className="partner-item">
-                        <img src="/images/partner/partner-5.png" alt="image" />
+                        <img src="/images/partner/partner-4.png" title="Carec" alt="image" />
                     </div>
 
                     <div className="partner-item">
-                        <img src="/images/partner/partner-6.png" alt="image" />
+                        <img src="/images/partner/partner-6.png" title="State Committee on Investments and State property management of the Republic of Tajikistan." alt="image" />
+                    </div>
+
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-7.png" title="Schiever Tajikistan" alt="image" />
                     </div>
                 </OwlCarousel> : ''}
             </div>

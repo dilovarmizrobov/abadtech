@@ -14,37 +14,23 @@ const Footer = () => {
                                 <div className="logo">
                                     <Link href="/">
                                         <a>
-                                            <img src="/images/logo.png" alt="image" />
+                                            <img src="/images/logo.svg" alt="image"/>
                                         </a>
                                     </Link>
                                 </div>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <p>Abad Technologies is engaged in the development, design and consulting of enterprise
+                                    software in the domestic market of Tajikistan and exports IT solutions abroad.</p>
 
                                 <ul className="social">
                                     <li>
-                                        <a href="https://www.facebook.com/" className="facebook" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" className="twitter" target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.pinterest.com/" className="pinterest" target="_blank">
-                                            <i className='bx bxl-pinterest-alt'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" className="linkedin" target="_blank">
-                                            <i className='bx bxl-instagram-alt'></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" className="linkedin" target="_blank">
+                                        <a href="https://www.linkedin.com/company/abadtech/" className="linkedin" target="_blank">
                                             <i className='bx bxl-linkedin'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/abadtech/" className="linkedin" target="_blank">
+                                            <i className='bx bxl-instagram-alt'></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -54,7 +40,7 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
                                 <h3>Important Links</h3>
-        
+
                                 <ul className="quick-links">
                                     <li>
                                         <Link href="/about-2">
@@ -93,7 +79,7 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
                                 <h3>Featured Services</h3>
-        
+
                                 <ul className="quick-links">
                                     <li>
                                         <Link href="/services-details">
@@ -137,17 +123,19 @@ const Footer = () => {
                                     <li>
                                         <i className="flaticon-call"></i>
                                         <span>Phone</span>
-                                        <a href="tel:882569756">882-569-756</a>
+                                        <a href="tel:882569756">+992-988-833-369</a>
+                                        <a href="tel:882569756">+992-988-888-562</a>
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>
                                         <span>Email</span>
-                                        <a href="mailto:hello@renex.com">hello@renex.com</a>
+                                        <a href="mailto:info@abad.tj">info@abad.tj</a>
                                     </li>
                                     <li>
                                         <i className="flaticon-pin"></i>
                                         <span>Address</span>
-                                        <a href="https://www.google.com/maps/@51.5287718,-0.2416804,11z" target="_blank">50 Nortambiya, UK.</a>
+                                        <a href="https://www.google.com/maps/@51.5287718,-0.2416804,11z"
+                                           target="_blank">50 Nortambiya, UK.</a>
                                     </li>
                                 </ul>
                             </div>
@@ -162,7 +150,7 @@ const Footer = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p>
-                                    Copyright &copy; {currentYear} Renex. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                    Copyright &copy; {currentYear} Abad Technology. All Rights Reserved
                                 </p>
                             </div>
 

@@ -10,7 +10,7 @@ const FunFactsTwo = () => {
                             <div className="icon">
                                 <i className="flaticon-checked"></i>
                             </div>
-                            <h3>950</h3>
+                            <h3>24+</h3>
                             <p>Completed Project</p>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const FunFactsTwo = () => {
                             <div className="icon">
                                 <i className="flaticon-happy"></i>
                             </div>
-                            <h3>850</h3>
+                            <h3>37+</h3>
                             <p>Happy Clients</p>
                         </div>
                     </div>
@@ -30,8 +30,8 @@ const FunFactsTwo = () => {
                             <div className="icon">
                                 <i className="flaticon-technical-support"></i>
                             </div>
-                            <h3>550</h3>
-                            <p>Multi Service</p>
+                            <h3>4+</h3>
+                            <p>Years in business</p>
                         </div>
                     </div>
 
@@ -40,8 +40,8 @@ const FunFactsTwo = () => {
                             <div className="icon">
                                 <i className="flaticon-trophy"></i>
                             </div>
-                            <h3>750</h3>
-                            <p>Winning Awards</p>
+                            <h3>92%</h3>
+                            <p>Statisfaction</p>
                         </div>
                     </div>
                 </div>

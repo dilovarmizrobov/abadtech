@@ -22,8 +22,9 @@ const ServicesStyleThree = () => {
                                     <a>Website Development</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>The use of agile development methodologies with the delivery of a predictable result to
+                                the customer at each iteration (SCRUM).</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -42,8 +43,9 @@ const ServicesStyleThree = () => {
                                     <a>Web Design</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>The use of dynamic interface prototyping and modern business process modeling
+                                notations.</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -62,8 +64,8 @@ const ServicesStyleThree = () => {
                                     <a>Social Media Marketing</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>Product support in social networks, targeted advertising and brand promotion.</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -79,11 +81,12 @@ const ServicesStyleThree = () => {
                             </div>
                             <h3>
                                 <Link href="/services-details">
-                                    <a>Content Marketing</a>
+                                    <a>SOA</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>We use Service-Oriented Architecture (SOA) in the construction of information
+                                systems.</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -99,11 +102,12 @@ const ServicesStyleThree = () => {
                             </div>
                             <h3>
                                 <Link href="/services-details">
-                                    <a>Digital Media & PPC</a>
+                                    <a>Mobile apps</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>Native development of mobile applications on Android (Architecture Components, Kotlin)
+                                and iOS (SwiftUI) platforms.</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -119,11 +123,54 @@ const ServicesStyleThree = () => {
                             </div>
                             <h3>
                                 <Link href="/services-details">
-                                    <a>Technology</a>
+                                    <a>Portals</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incutu  labore et dolore magna aliqua.</p>
-                            
+                            <p>Development of thematic portals, online stores, regulatory information management
+                                systems, loyalty programs and dynamic sites.</p>
+
+                            <Link href="/services-details">
+                                <a className="services-btn">
+                                    Read More <i className='bx bx-chevrons-right'></i>
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="flaticon-cpu"></i>
+                            </div>
+                            <h3>
+                                <Link href="/services-details">
+                                    <a>Process automation</a>
+                                </Link>
+                            </h3>
+                            <p>Electronic document management, approval chains, CRM, supply automation and production
+                                management.</p>
+
+                            <Link href="/services-details">
+                                <a className="services-btn">
+                                    Read More <i className='bx bx-chevrons-right'></i>
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-services-box">
+                            <div className="icon">
+                                <i className="flaticon-cpu"></i>
+                            </div>
+                            <h3>
+                                <Link href="/services-details">
+                                    <a>Personal accounts</a>
+                                </Link>
+                            </h3>
+                            <p>Development of personal web-accounts of organizations and users with an extensive system
+                                of roles and powers.</p>
+
                             <Link href="/services-details">
                                 <a className="services-btn">
                                     Read More <i className='bx bx-chevrons-right'></i>
@@ -136,16 +183,16 @@ const ServicesStyleThree = () => {
 
             <div className="default-shape">
                 <div className="shape1">
-                    <img src="/images/default-shape/default-shape1.png" alt="image" />
+                    <img src="/images/default-shape/default-shape1.png" alt="image"/>
                 </div>
                 <div className="shape2">
-                    <img src="/images/default-shape/default-shape2.png" alt="image" />
+                    <img src="/images/default-shape/default-shape2.png" alt="image"/>
                 </div>
                 <div className="shape3">
-                    <img src="/images/default-shape/default-shape3.png" alt="image" />
+                    <img src="/images/default-shape/default-shape3.png" alt="image"/>
                 </div>
                 <div className="shape4">
-                    <img src="/images/default-shape/default-shape4.png" alt="image" />
+                    <img src="/images/default-shape/default-shape4.png" alt="image"/>
                 </div>
             </div>
         </div>

@@ -12,10 +12,10 @@ const Contact = () => {
 			<Navbar />
 
 			<PageBanner 
-                pageTitle="Contact Style One" 
+                pageTitle="Contacts"
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Contact Style One" 
+                activePageText="Contacts"
                 BGImage="item-bg4" 
             />
 

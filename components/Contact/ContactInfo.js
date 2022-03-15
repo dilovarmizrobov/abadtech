@@ -12,8 +12,8 @@ const ContactInfo = () => {
                             </div>
 
                             <h3>Email Here</h3>
-                            <p><a href="mailto:hello@renex.com">hello@renex.com</a></p>
-                            <p><a href="mailto:support@renex.com">support@renex.com</a></p>
+                            <p><a href="mailto:hello@info@abad.tj">info@abad.tj</a></p>
+                            <p><a href="mailto:abrorkholov@abad.tj">abrorkholov@abad.tj</a></p>
                         </div>
                     </div>
 
@@ -35,8 +35,8 @@ const ContactInfo = () => {
                             </div>
 
                             <h3>Call Here</h3>
-                            <p><a href="tel:1234567890">+123 456 7890</a></p>
-                            <p><a href="tel:2414524526">+241 452 4526</a></p>
+                            <p><a href="tel:+992988833369">+992 988 833 369</a></p>
+                            <p><a href="tel:+992988888562">+992 988 888 562</a></p>
                         </div>
                     </div>
                 </div>

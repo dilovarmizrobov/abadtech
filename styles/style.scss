@@ -62,11 +62,19 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+$color-1: #1D628B;
+$color-2: #4589B0;
+$color-3: #73B1D6;
+$color-4: #444444;
+$color-5: #F1C40F;
+$color-6: #FFFFFF;
+
 
 $main-font-family: 'DM Sans', sans-serif;
-$main-color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
-$optional-color: #f64c67;
-$others-color: #fd9b5f;
+//$main-color: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+$main-color: linear-gradient(to right top, #73B1D6, #4589B0, #1D628B);
+$optional-color: #1D628B;
+$others-color: #202647;
 $white-color: #ffffff;
 $black-color: #202647;
 $paragraph-color: #6b6b84;
@@ -369,6 +377,10 @@ Navbar Area CSS
             top: 0;
             left: 0;
             bottom: 0;
+        }
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 0.6rem;
         }
         ul {
             padding-left: 0;

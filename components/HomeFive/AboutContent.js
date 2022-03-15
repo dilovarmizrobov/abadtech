@@ -13,7 +13,7 @@ const AboutContent = () => {
     }
     return (
         <>
-            <div className="about-area pb-100">
+            <div className="about-area pb-100 pt-100 ">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
