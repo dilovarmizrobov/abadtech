@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, {useContext, useState} from "react";
 import Link from '../../utils/ActiveLink';
+import LanguageContext, {LANGUAGES} from "../../store/LanguageContext";
+import multiTranslate from "../../utils/multiTranslate";
 
 const Navbar = () => {
-    const [menu, setMenu] = React.useState(true)
- 
+    const [menu, setMenu] = useState(true)
+    const {locale, handleLocaleChange} = useContext(LanguageContext)
+    const TRANSLATE = multiTranslate();
+
     const toggleNavbar = () => {
         setMenu(!menu)
     }
@@ -31,7 +35,7 @@ const Navbar = () => {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a onClick={toggleNavbar} className="navbar-brand">
-                                    <img src="/images/logo.svg" alt="logo" />
+                                    <img src={"/images/logo.svg"} alt="logo" />
                                 </a>
                             </Link>
 
@@ -53,26 +57,26 @@ const Navbar = () => {
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
                                         <Link href="/portfolio-2" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">Portfolio</a>
+                                            <a onClick={toggleNavbar} className="nav-link">{TRANSLATE.portfolio}</a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
                                         <Link href="/services-1" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">Services</a>
+                                            <a onClick={toggleNavbar} className="nav-link">{TRANSLATE.services}</a>
                                         </Link>
                                     </li>
 
 
                                     <li className="nav-item">
                                         <Link href="/blog-1" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">Blog</a>
+                                            <a onClick={toggleNavbar} className="nav-link">{TRANSLATE.blog}</a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
                                         <Link href="/contact-1" activeClassName="active">
-                                            <a onClick={toggleNavbar} className="nav-link">Contacts</a>
+                                            <a onClick={toggleNavbar} className="nav-link">{TRANSLATE.contact}</a>
                                         </Link>
                                     </li>
 
@@ -272,6 +276,36 @@ const Navbar = () => {
                                             </li>
                                         </ul>
                                     </li>
+
+                                    {/* Start Language*/}
+                                    <li className="nav-item">
+                                        <Link href="/#">
+                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                                {LANGUAGES[locale].show} <i className='bx bx-chevron-down'></i>
+                                            </a>
+                                        </Link>
+
+                                        <ul className="dropdown-menu">
+                                            {
+                                                Object.values(LANGUAGES).map((item,index) => (
+                                                    <li className="nav-item" key={index}>
+                                                        <Link href="/#">
+                                                            <a
+                                                                onClick={(e) => {
+                                                                    e.preventDefault()
+                                                                    handleLocaleChange(item.key)
+                                                                }}
+                                                                className="nav-link"
+                                                            >
+                                                                {item.show}
+                                                            </a>
+                                                        </Link>
+                                                    </li>
+                                                ))
+                                            }
+                                        </ul>
+                                    </li>
+                                    {/* End Language*/}
 
                                     {/*<li className="nav-item">*/}
                                     {/*    <Link href="/#">*/}
